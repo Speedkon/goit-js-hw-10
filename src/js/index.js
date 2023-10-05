@@ -1,5 +1,5 @@
 import axios from "axios";
-axios.defaults.headers.common["x-api-key"] = "live_dOJ39ImEqWH3cF1jUJI4PMe7tAnZXHOkINz33Hfe1NJ2IErVO1ESFhxy6AB6WCAO";
+axios.defaults.headers.common["x-api-key"] = "live_SlFEe9IWVQAp6IfJYFqZgHppglaF6bTCWrSAyJ1wKbYAvKsmxZ3xz1uBC0sD00g6";
 import {fetchBreeds, fetchCatByBreed} from './cat-api'
 
 const breedSelect = document.querySelector('.breed-select');
@@ -23,7 +23,7 @@ function init(){
 
             breedSelect.classList.remove('is-hidden');
             infoLoader.classList.add('is-hidden');
-          })
+        })
     })
     .catch(error => {
         console.log(error);
